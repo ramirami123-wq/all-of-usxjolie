@@ -287,6 +287,91 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "image_with_text_7PWNWF": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_xTpncB": {
+          "type": "heading",
+          "settings": {
+            "heading": "Cat-Eye You've Always Wanted",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "text_87GUbK": {
+          "type": "text",
+          "settings": {
+            "text": "<p>That salon-perfect winged look you see on Instagram? It's yours now, every single time. Because flawless eyeliner shouldn't be reserved for makeup artists—it should be as easy as a single stamp.</p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_xTpncB",
+        "text_87GUbK"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/fab0802718b446d2804c787264ddfbb9_tplv-fhlh96nyum-resize-webp_800_800_1060x_589e83b8-f0b4-4bb4-9ab6-1ad24fe7b676.png",
+        "image_position": "center center",
+        "layout": "image_first",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "image_ratio": "650px",
+        "enlarge_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "image_behavior": "none",
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "adapt",
+        "enable_video_looping": false,
+        "use_custom_colors": true,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#ffffff",
+        "colors_background": "#ff85d0",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "faq_9VqJDi": {
+      "type": "faq",
+      "blocks": {
+        "question_grPBg7": {
+          "type": "question",
+          "settings": {
+            "title": "Frequently asked question",
+            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.</p>"
+          }
+        },
+        "question_nBkyJE": {
+          "type": "question",
+          "settings": {
+            "title": "Frequently asked question",
+            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_grPBg7",
+        "question_nBkyJE"
+      ],
+      "name": "t:sections.faq.presets.name",
+      "settings": {
+        "narrow": false,
+        "secondary_background": false,
+        "show_divider": false,
+        "heading": "FAQs",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "heading_tag": "h2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -295,6 +380,8 @@
     "product-recommendations",
     "rich_text_ntJ98Q",
     "scrolling_promotion_Cb8Bzg",
-    "image_with_text_8A8AHr"
+    "image_with_text_8A8AHr",
+    "image_with_text_7PWNWF",
+    "faq_9VqJDi"
   ]
 }
