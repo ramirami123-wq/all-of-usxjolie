@@ -19,6 +19,19 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "custom_liquid_H87ztf": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"happy-customers\">\n  <div class=\"avatars\">\n    <img src=\"https://img.freepik.com/free-photo/stylish-african-american-woman-smiling_23-2148770405.jpg\" alt=\"Customer 1\" class=\"avatar\">\n    <img src=\"https://thumbs.dreamstime.com/b/beautiful-african-american-woman-relaxing-outside-happy-middle-aged-smiling-46298787.jpg\" alt=\"Customer 2\" class=\"avatar\">\n    <img src=\"https://media.istockphoto.com/id/1320651997/photo/young-woman-close-up-isolated-studio-portrait.jpg?s=612x612&w=0&k=20&c=lV6pxz-DknISGT2jjiSvUmSaw0hpMDf-dBpT8HTSAUI=\" alt=\"Customer 3\" class=\"avatar\">\n  </div>\n  <span class=\"text\">1000+ HAPPY CUSTOMERS</span>\n</div>\n\n<style>\n.happy-customers {\n  display: flex;\n  align-items: center;\nbackground-image: linear-gradient(45deg, #1cbcc3, #4abf8f 80%);\n  border-radius: 5px;\n  padding: 5px 15px;\n  font-family: Arial, sans-serif;\n  font-size: 12px;\n  color: white;\n  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);\n}\n\n.avatars {\n  display: flex;\n  margin-right: 10px;\nmargin-left: 10px\n}\n\n.avatar {\n  width: 22px;\n  height: 22px;\n  border-radius: 50%;\n  border: 2px solid white;\n  margin-left: -7px; \n object-fit: cover;\n}\n\n.text {\n  font-weight: bold;\n  text-transform: uppercase;\n  letter-spacing: 1px;\n}\n\n</style>"
+          }
+        },
+        "spacing_B9qxMA": {
+          "type": "spacing",
+          "settings": {
+            "desktop_height": 28,
+            "mobile_height": 20
+          }
+        },
         "title": {
           "type": "title",
           "settings": {
@@ -27,12 +40,15 @@
             "price_size": "medium"
           }
         },
-        "rating": {
-          "type": "rating",
-          "settings": {}
+        "custom_liquid_CwkXaw": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<b>⏱ Fast Application —</b> A complete winged-liner look in under 10 seconds.\n<br>\n<b>🎯 Perfect Symmetry — </b>Both eyes match effortlessly, every time.\n<br>\n💧 Smudge-Resistant — Stays flawless through heat, sweat, and long days."
+          }
         },
         "price": {
           "type": "price",
+          "disabled": true,
           "settings": {
             "price_size": "medium",
             "show_badges": true,
@@ -75,8 +91,10 @@
         }
       },
       "block_order": [
+        "custom_liquid_H87ztf",
+        "spacing_B9qxMA",
         "title",
-        "rating",
+        "custom_liquid_CwkXaw",
         "price",
         "variant_picker",
         "buy_buttons",
