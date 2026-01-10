@@ -83,6 +83,10 @@
             "show_gift_card_recipient": false
           }
         },
+        "c_edd_estimated_delivery_date_delivery_coder_theme_wben6T": {
+          "type": "shopify://apps/c-edd-estimated-delivery-date/blocks/delivery_coder_theme/4a0685bc-c234-45b2-8382-5ad6a8e3e3fd",
+          "settings": {}
+        },
         "related_buttons": {
           "type": "related_buttons",
           "disabled": true,
@@ -106,6 +110,7 @@
         "custom_liquid_CwkXaw",
         "variant_picker",
         "buy_buttons",
+        "c_edd_estimated_delivery_date_delivery_coder_theme_wben6T",
         "related_buttons",
         "sticky_cart"
       ],
