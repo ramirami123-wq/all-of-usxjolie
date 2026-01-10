@@ -117,7 +117,7 @@
         "sticky_cart"
       ],
       "custom_css": [
-        ".product-form__submit{animation: shopifyshake 4s; animation-iteration-count: infinite;}"
+        ".product-form__submit {animation: shopifyshake 4s; animation-iteration-count: infinite;}"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -162,170 +162,109 @@
         "padding_bottom": 36
       }
     },
-    "image_with_text_VVctER": {
-      "type": "image-with-text",
+    "rich_text_ntJ98Q": {
+      "type": "rich-text",
       "blocks": {
-        "heading_fwF9Ym": {
+        "heading_cmmPpw": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "Winged Perfection",
             "heading_size": "h1",
             "heading_tag": "h2"
           }
         },
-        "text_qfmgVz": {
+        "text_WhLffM": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text": "<p>Create clean, perfectly balanced wings in seconds. No skills, no touch-ups — just a flawless, polished look that lasts all day</p>",
             "text_size": "typeset2",
-            "secondary_color": false
-          }
-        },
-        "button_pqbyre": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_size": "medium",
-            "button_style_secondary": false
+            "secondary_color": false,
+            "highlight_phrases": "clean\nNo skills",
+            "highlight_style": "circle"
           }
         }
       },
       "block_order": [
-        "heading_fwF9Ym",
-        "text_qfmgVz",
-        "button_pqbyre"
+        "heading_cmmPpw",
+        "text_WhLffM"
       ],
-      "name": "t:sections.image-with-text.presets.name",
+      "name": "t:sections.rich-text.presets.name",
       "settings": {
-        "image_position": "center center",
-        "layout": "image_first",
-        "text_box_position": "middle",
-        "text_alignment": "left",
-        "image_ratio": "650px",
-        "enlarge_content": false,
-        "full_width": false,
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
         "show_divider": false,
-        "image_behavior": "none",
-        "mobile_layout": "image_first",
-        "mobile_text_alignment": "left",
-        "mobile_image_ratio": "auto",
-        "enable_video_looping": false,
-        "video_url": "",
-        "use_custom_colors": false,
+        "use_custom_colors": true,
         "colors_button_label": "#ffffff",
         "colors_button_background": "#1a1b18",
         "colors_text": "#212326",
         "colors_background": "#ffffff",
+        "colors_highlight": "#ff85d0",
         "gradient_background": "",
         "padding_top": 36,
         "padding_bottom": 36
       }
     },
-    "scrolling_promotion_PrgjdJ": {
+    "scrolling_promotion_Cb8Bzg": {
       "type": "scrolling-promotion",
       "blocks": {
-        "announcement_87LpB3": {
+        "announcement_pBTGgk": {
           "type": "announcement",
           "settings": {
             "icon": "none",
             "icon_size": "medium",
             "custom_icon": "",
-            "text": "Welcome to our store",
-            "text_size": 20,
-            "link": ""
-          }
-        },
-        "announcement_X9NzhL": {
-          "type": "announcement",
-          "settings": {
-            "icon": "none",
-            "icon_size": "medium",
-            "custom_icon": "",
-            "text": "Welcome to our store",
-            "text_size": 20,
-            "link": ""
-          }
-        },
-        "announcement_k3DxdP": {
-          "type": "announcement",
-          "settings": {
-            "icon": "none",
-            "icon_size": "medium",
-            "custom_icon": "",
-            "text": "Welcome to our store",
-            "text_size": 20,
-            "link": ""
-          }
-        },
-        "announcement_pnfR39": {
-          "type": "announcement",
-          "settings": {
-            "icon": "none",
-            "icon_size": "medium",
-            "custom_icon": "",
-            "text": "Welcome to our store",
+            "text": "FREE DELIVERY ALL OVER LEBANON",
             "text_size": 20,
             "link": ""
           }
         }
       },
       "block_order": [
-        "announcement_87LpB3",
-        "announcement_X9NzhL",
-        "announcement_k3DxdP",
-        "announcement_pnfR39"
+        "announcement_pBTGgk"
       ],
       "name": "t:sections.scrolling-promotion.presets.name",
       "settings": {
         "direction": "left",
         "speed": 1.6,
         "show_divider": false,
-        "use_custom_colors": false,
+        "use_custom_colors": true,
         "colors_icon": "#ffffff",
-        "colors_text": "#1a1b18",
-        "colors_background": "#ffffff",
+        "colors_text": "#ffffff",
+        "colors_background": "#ff85d0",
         "gradient_background": "",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 20,
+        "padding_bottom": 20
       }
     },
-    "image_with_text_ffCV4e": {
+    "image_with_text_8A8AHr": {
       "type": "image-with-text",
       "blocks": {
-        "heading_T6fWdQ": {
+        "heading_rzHTxp": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "The Wings every girl dreams about",
             "heading_size": "h1",
             "heading_tag": "h2"
           }
         },
-        "text_HiJDpB": {
+        "text_XpkpgY": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text": "<p>Imagine effortlessly creating flawless, symmetrical winged eyeliner in seconds—no more <strong>shaky </strong>hands, <strong>uneven </strong>lines, or countless <strong>attempts</strong> to get both eyes to match. </p>",
             "text_size": "typeset2",
             "secondary_color": false
-          }
-        },
-        "button_yqGMEm": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_size": "medium",
-            "button_style_secondary": false
           }
         }
       },
       "block_order": [
-        "heading_T6fWdQ",
-        "text_HiJDpB",
-        "button_yqGMEm"
+        "heading_rzHTxp",
+        "text_XpkpgY"
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
+        "image": "shopify://shop_images/NEW_REAL_ONE.png",
         "image_position": "center center",
         "layout": "image_first",
         "text_box_position": "middle",
@@ -337,9 +276,8 @@
         "image_behavior": "none",
         "mobile_layout": "image_first",
         "mobile_text_alignment": "left",
-        "mobile_image_ratio": "auto",
+        "mobile_image_ratio": "adapt",
         "enable_video_looping": false,
-        "video_url": "",
         "use_custom_colors": false,
         "colors_button_label": "#ffffff",
         "colors_button_background": "#1a1b18",
@@ -355,8 +293,8 @@
     "empty-space",
     "main",
     "product-recommendations",
-    "image_with_text_VVctER",
-    "scrolling_promotion_PrgjdJ",
-    "image_with_text_ffCV4e"
+    "rich_text_ntJ98Q",
+    "scrolling_promotion_Cb8Bzg",
+    "image_with_text_8A8AHr"
   ]
 }
