@@ -116,6 +116,9 @@
         "related_buttons",
         "sticky_cart"
       ],
+      "custom_css": [
+        ".product-form__submit{animation: shopifyshake 4s; animation-iteration-count: infinite;}"
+      ],
       "settings": {
         "enable_sticky_info": true,
         "media_position": "left",
@@ -208,6 +211,7 @@
         "mobile_text_alignment": "left",
         "mobile_image_ratio": "auto",
         "enable_video_looping": false,
+        "video_url": "",
         "use_custom_colors": false,
         "colors_button_label": "#ffffff",
         "colors_button_background": "#1a1b18",
@@ -335,6 +339,7 @@
         "mobile_text_alignment": "left",
         "mobile_image_ratio": "auto",
         "enable_video_looping": false,
+        "video_url": "",
         "use_custom_colors": false,
         "colors_button_label": "#ffffff",
         "colors_button_background": "#1a1b18",
