@@ -365,8 +365,8 @@
         "show_divider": false,
         "use_custom_colors": true,
         "colors_icon": "#ffffff",
-        "colors_text": "#ff85d0",
-        "colors_background": "#212326",
+        "colors_text": "#ffffff",
+        "colors_background": "#ff85d0",
         "gradient_background": "",
         "padding_top": 12,
         "padding_bottom": 12
