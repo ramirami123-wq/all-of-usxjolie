@@ -149,55 +149,55 @@
     "guarantees_hT6BHy": {
       "type": "guarantees",
       "blocks": {
+        "guarantee_kfQdnF": {
+          "type": "guarantee",
+          "settings": {
+            "icon": "shield",
+            "icon_size": "medium",
+            "custom_icon": "",
+            "title": "VEGAN & CRUELTY-FREE",
+            "title_size": "h3",
+            "text": ""
+          }
+        },
         "guarantee_K6RAy9": {
           "type": "guarantee",
           "settings": {
             "icon": "truck",
             "icon_size": "medium",
             "custom_icon": "",
-            "title": "Guarantee heading",
+            "title": "FREE DELIVERY",
             "title_size": "h3",
-            "text": "<p>Welcome to our store.</p>"
+            "text": ""
           }
         },
         "guarantee_BcMK7e": {
           "type": "guarantee",
           "settings": {
-            "icon": "truck",
+            "icon": "star",
             "icon_size": "medium",
             "custom_icon": "",
-            "title": "Guarantee heading",
+            "title": "5-STAR REVIEWS",
             "title_size": "h3",
-            "text": "<p>Welcome to our store.</p>"
-          }
-        },
-        "guarantee_kfQdnF": {
-          "type": "guarantee",
-          "settings": {
-            "icon": "truck",
-            "icon_size": "medium",
-            "custom_icon": "",
-            "title": "Guarantee heading",
-            "title_size": "h3",
-            "text": "<p>Welcome to our store.</p>"
+            "text": ""
           }
         },
         "guarantee_MJc9VA": {
           "type": "guarantee",
           "settings": {
-            "icon": "truck",
+            "icon": "price_tag",
             "icon_size": "medium",
             "custom_icon": "",
-            "title": "Guarantee heading",
+            "title": "CASH ON DELIVERY",
             "title_size": "h3",
-            "text": "<p>Welcome to our store.</p>"
+            "text": ""
           }
         }
       },
       "block_order": [
+        "guarantee_kfQdnF",
         "guarantee_K6RAy9",
         "guarantee_BcMK7e",
-        "guarantee_kfQdnF",
         "guarantee_MJc9VA"
       ],
       "custom_css": [
