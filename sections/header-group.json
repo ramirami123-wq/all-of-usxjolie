@@ -17,7 +17,7 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "Welcome to our store",
+            "text": "FREE DELIVERY ALL OVER LEBANON",
             "text_on_mobile": "",
             "text_size": 13,
             "link": ""
@@ -64,7 +64,7 @@
         "enable_dropdown_menu": true,
         "show_line_separator": true,
         "uppercase_menu_items": true,
-        "cart_icon": "cart",
+        "cart_icon": "bag",
         "icon_weight": "1.1",
         "enable_country_selector": true,
         "enable_language_selector": true,
