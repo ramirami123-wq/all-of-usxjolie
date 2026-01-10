@@ -38,8 +38,8 @@
         "announcement_y49kUL"
       ],
       "settings": {
-        "only_homepage": true,
-        "layout": "default",
+        "only_homepage": false,
+        "layout": "marquee",
         "mobile_layout": "marquee",
         "autorotate": true,
         "autorotate_speed": 5,
