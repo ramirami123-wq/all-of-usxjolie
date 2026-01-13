@@ -15,7 +15,7 @@
         "slide-2": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/EDCA8CC1-F8BE-411E-A926-F02BABFCD46B_1060x_fec9a512-8b2a-49e9-bc7a-2107b8bbf07b.png",
+            "image": "shopify://shop_images/1_10269e1e-58db-4c18-8fe5-1b41e8a71870.png",
             "image_position": "center center",
             "text_box_position": "bottom-right",
             "subheading": "",
@@ -70,26 +70,18 @@
             "price_size": "medium"
           }
         },
-        "rating_EdWnrh": {
-          "type": "rating",
-          "settings": {}
-        },
-        "countdown_L39iLY": {
-          "type": "countdown",
-          "settings": {
-            "heading": "Hurry up ! Sale end in:",
-            "number_size": "compact",
-            "colors_heading": "#da3f3f",
-            "colors_text": "#da3f3f",
-            "colors_background": "#feeeee"
-          }
-        },
         "price_CbFwCr": {
           "type": "price",
           "settings": {
             "price_size": "medium",
             "show_badges": true,
             "sale_badge_basis": "auto"
+          }
+        },
+        "custom_liquid_tQ8P3D": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<span style=\"font-weight:700;\">✨ Instant Styling —</span> A cute, put-together hairstyle in seconds, no effort needed.\n<br>\n<span style=\"font-weight:700;\">🎀 Customizable Look —</span> Add or swap charms to match your mood, outfit, or vibe.\n<br>\n<span style=\"font-weight:700;\">🔒 Strong Hold —</span> Stays secure all day without pulling, slipping, or damaging hair."
           }
         },
         "variant_picker_MaetAa": {
@@ -122,16 +114,15 @@
       },
       "block_order": [
         "title_Nhfakn",
-        "rating_EdWnrh",
-        "countdown_L39iLY",
         "price_CbFwCr",
+        "custom_liquid_tQ8P3D",
         "variant_picker_MaetAa",
         "buy_buttons_pHtxFm",
         "custom_liquid_83wWr8"
       ],
       "name": "t:sections.featured-product.presets.name",
       "settings": {
-        "product": "jolie™-winged-eyeliner-stamp",
+        "product": "superclip",
         "layout": "media_first",
         "full_width": false,
         "show_divider": false,
@@ -149,17 +140,6 @@
     "guarantees_hT6BHy": {
       "type": "guarantees",
       "blocks": {
-        "guarantee_kfQdnF": {
-          "type": "guarantee",
-          "settings": {
-            "icon": "shield",
-            "icon_size": "medium",
-            "custom_icon": "",
-            "title": "VEGAN & CRUELTY-FREE",
-            "title_size": "h3",
-            "text": ""
-          }
-        },
         "guarantee_K6RAy9": {
           "type": "guarantee",
           "settings": {
@@ -195,7 +175,6 @@
         }
       },
       "block_order": [
-        "guarantee_kfQdnF",
         "guarantee_K6RAy9",
         "guarantee_BcMK7e",
         "guarantee_MJc9VA"
