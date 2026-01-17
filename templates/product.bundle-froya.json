@@ -1,0 +1,438 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "empty-space": {
+      "type": "empty-space",
+      "settings": {
+        "desktop_height": 36,
+        "mobile_height": 16
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "text_7WhY7E": {
+          "type": "text",
+          "settings": {
+            "icon": "none",
+            "text": "⭐⭐⭐⭐⭐ 284+ Happy Customers",
+            "text_style": "body"
+          }
+        },
+        "spacing_B9qxMA": {
+          "type": "spacing",
+          "settings": {
+            "desktop_height": 28,
+            "mobile_height": 20
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "title_size": "h2",
+            "show_price": false,
+            "price_size": "medium"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "price_size": "medium",
+            "show_badges": true,
+            "sale_badge_basis": "auto"
+          }
+        },
+        "custom_liquid_qKYaPt": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<section class=\"sale-timer\" aria-label=\"Sale countdown timer\">\n  <style>\n    .sale-timer{\n      width:100%;\n      padding:22px 12px;\n      display:flex;\n      justify-content:center;\n      background:##ff85d0;\n      font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;\n    }\n    .sale-timer__wrap{\n      text-align:center;\n    }\n    .sale-timer__label{\n      font-size:24px;\n      font-weight:500;\n      color:#111;\n      margin:0 0 14px 0;\n      line-height:1.1;\n    }\n\n    .sale-timer__row{\n      display:flex;\n      align-items:center;\n      justify-content:center;\n      gap:10px;\n    }\n\n    .sale-timer__box{\n      width:88px;\n      height:68px;\n      background:#ff85d0;\n      color:#fff;\n      border-radius:6px;\n      display:flex;\n      align-items:center;\n      justify-content:center;\n      font-size:34px;\n      font-weight:700;\n      letter-spacing:1px;\n      font-variant-numeric: tabular-nums;\n    }\n\n    .sale-timer__colon{\n      font-size:32px;\n      font-weight:700;\n      color:#ff2a2a;\n      line-height:1;\n      transform: translateY(-1px);\n      user-select:none;\n    }\n\n    @media (max-width:420px){\n      .sale-timer__label{ font-size:20px; }\n      .sale-timer__box{ width:72px; height:58px; font-size:30px; }\n      .sale-timer__colon{ font-size:28px; }\n      .sale-timer__row{ gap:8px; }\n    }\n  </style>\n\n  <div class=\"sale-timer__wrap\">\n    <div class=\"sale-timer__label\">Hurry! Sale ends in</div>\n\n    <div class=\"sale-timer__row\" role=\"timer\" aria-live=\"polite\">\n      <div class=\"sale-timer__box\" id=\"st-hours\">00</div>\n      <div class=\"sale-timer__colon\">:</div>\n      <div class=\"sale-timer__box\" id=\"st-mins\">00</div>\n      <div class=\"sale-timer__colon\">:</div>\n      <div class=\"sale-timer__box\" id=\"st-secs\">00</div>\n    </div>\n  </div>\n\n  <script>\n    (function () {\n      const durationHours = 12; // change if needed\n      const endAt = Date.now() + durationHours * 60 * 60 * 1000;\n\n      const h = document.getElementById(\"st-hours\");\n      const m = document.getElementById(\"st-mins\");\n      const s = document.getElementById(\"st-secs\");\n\n      const pad = n => String(n).padStart(2, \"0\");\n\n      function update(){\n        let diff = endAt - Date.now();\n        if(diff < 0) diff = 0;\n\n        const total = Math.floor(diff / 1000);\n        h.textContent = pad(Math.floor(total / 3600));\n        m.textContent = pad(Math.floor((total % 3600) / 60));\n        s.textContent = pad(total % 60);\n\n        if(diff === 0) clearInterval(timer);\n      }\n\n      update();\n      const timer = setInterval(update, 1000);\n    })();\n  </script>\n</section>"
+          }
+        },
+        "custom_liquid_CwkXaw": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<span style=\"font-weight:700;\">⏱ Fast Application —</span> A complete winged-liner look in under 10 seconds.\n<br>\n<span style=\"font-weight:700;\">🎯 Perfect Symmetry —</span> Both eyes match effortlessly, every time.\n<br>\n<span style=\"font-weight:700;\">💧 Smudge-Resistant —</span> Stays flawless through heat, sweat, and long days."
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "show_variant_labels": true,
+            "picker_type": "button",
+            "enable_color_swatches": true,
+            "swatches_source": "file",
+            "swatch_type": "round",
+            "enable_swatch_cross": true,
+            "enable_swatch_unavailable_click": false,
+            "size_chart": ""
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_quantity_selector": false,
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": false
+          }
+        },
+        "custom_liquid_VxfRQW": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"delivery-estimate\">\n  <span class=\"delivery-estimate__icon\" aria-hidden=\"true\">\n    <svg xmlns=\"http://www.w3.org/2000/svg\" height=\"22\" viewBox=\"0 -960 960 960\" width=\"22\" fill=\"currentColor\">\n      <path d=\"M240-160q-50 0-85-35t-35-85H40v-440q0-33 23.5-56.5T120-800h560v160h120l120 160v200h-80q0 50-35 85t-85 35q-50 0-85-35t-35-85H360q0 50-35 85t-85 35Zm0-80q17 0 28.5-11.5T280-280q0-17-11.5-28.5T240-320q-17 0-28.5 11.5T200-280q0 17 11.5 28.5T240-240Zm-120-120h32q17-18 39-29t49-11q27 0 49 11t39 29h272v-360H120v360Zm600 120q17 0 28.5-11.5T760-280q0-17-11.5-28.5T720-320q-17 0-28.5 11.5T680-280q0 17 11.5 28.5T720-240Zm-40-200h170l-90-120h-80v120Z\"/>\n    </svg>\n  </span>\n\n  <span class=\"delivery-estimate__text\">\n    Estimated delivery:\n    <strong id=\"delivery-dates\"></strong>\n  </span>\n</div>\n\n<style>\n  .delivery-estimate{\n    display:flex;\n    align-items:center;\n    gap:10px;\n    padding:12px 14px;\n    margin:12px 0;\n    border-radius:13px;\n    background:#F6F4F1;              /* luxe neutral */\n    color:#2B2B2B;\n    font-size:14.5px;\n    line-height:1.35;\n    border:1px solid rgba(0,0,0,.06);\n  }\n  .delivery-estimate__icon{\n    width:34px;\n    height:34px;\n    border-radius:999px;\n    background:#FFFFFF;\n    display:grid;\n    place-items:center;\n    color:#6B5A4E;                   /* brown accent */\n    flex:0 0 34px;\n  }\n  .delivery-estimate__text strong{\n    font-weight:700;\n  }\n</style>\n\n<script>\n(function(){\n  function formatRange(minDays, maxDays){\n    var now = new Date();\n    var min = new Date(now); min.setDate(now.getDate() + minDays);\n    var max = new Date(now); max.setDate(now.getDate() + maxDays);\n\n    var fmt = new Intl.DateTimeFormat(undefined, { month: 'long', day: 'numeric' });\n    return fmt.format(min) + ' – ' + fmt.format(max);\n  }\n\n  function setDelivery(){\n    var el = document.getElementById('delivery-dates');\n    if(!el) return false;\n    el.textContent = formatRange(2, 3);\n    return true;\n  }\n\n  // Run now + retry once (helps with Shopify dynamic sections)\n  if(!setDelivery()){\n    setTimeout(setDelivery, 300);\n  }\n})();\n</script>"
+          }
+        },
+        "related_buttons": {
+          "type": "related_buttons",
+          "disabled": true,
+          "settings": {
+            "show_icons": false
+          }
+        },
+        "sticky_cart": {
+          "type": "sticky_cart",
+          "settings": {
+            "show_quantity_selector": false
+          }
+        }
+      },
+      "block_order": [
+        "text_7WhY7E",
+        "spacing_B9qxMA",
+        "title",
+        "price",
+        "custom_liquid_qKYaPt",
+        "custom_liquid_CwkXaw",
+        "variant_picker",
+        "buy_buttons",
+        "custom_liquid_VxfRQW",
+        "related_buttons",
+        "sticky_cart"
+      ],
+      "custom_css": [
+        ".product-form__submit {animation: shopifyshake 4s; animation-iteration-count: infinite;}"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "media_position": "left",
+        "media_size": "medium",
+        "gallery_layout": "thumbnail_slider",
+        "image_ratio": "adapt",
+        "show_featured_media": false,
+        "show_thumbnails": true,
+        "hide_variants": true,
+        "enable_image_zoom": true,
+        "enable_video_looping": false,
+        "mobile_image_ratio": "adapt_first",
+        "show_mobile_thumbnails": true,
+        "padding_top": 0,
+        "padding_bottom": 72
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "product_list_limit": 4,
+        "show_divider": false,
+        "heading": "You May Also Like",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "heading_tag": "h2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "image_ratio": "portrait",
+        "image_position": "center center",
+        "enable_image_fill": true,
+        "show_secondary_image": true,
+        "show_vendor": true,
+        "show_rating": true,
+        "show_quick_buy": true,
+        "enable_quick_view": true,
+        "enable_color_swatches": true,
+        "enable_countdown": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_ntJ98Q": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_cmmPpw": {
+          "type": "heading",
+          "settings": {
+            "heading": "Winged Perfection",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "text_WhLffM": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Create clean, perfectly balanced wings in seconds. No skills, no touch-ups — just a flawless, polished look that lasts all day</p>",
+            "text_size": "typeset2",
+            "secondary_color": false,
+            "highlight_phrases": "clean\nNo skills",
+            "highlight_style": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "heading_cmmPpw",
+        "text_WhLffM"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "text_alignment": "center",
+        "mobile_text_alignment": "center",
+        "horizontal_content": false,
+        "narrow": false,
+        "show_divider": false,
+        "use_custom_colors": true,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "colors_highlight": "#ff85d0",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "scrolling_promotion_Cb8Bzg": {
+      "type": "scrolling-promotion",
+      "blocks": {
+        "announcement_pBTGgk": {
+          "type": "announcement",
+          "settings": {
+            "icon": "none",
+            "icon_size": "medium",
+            "custom_icon": "",
+            "text": "FREE DELIVERY ALL OVER LEBANON",
+            "text_size": 20,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "announcement_pBTGgk"
+      ],
+      "name": "t:sections.scrolling-promotion.presets.name",
+      "settings": {
+        "direction": "left",
+        "speed": 1.6,
+        "show_divider": false,
+        "use_custom_colors": true,
+        "colors_icon": "#ffffff",
+        "colors_text": "#ffffff",
+        "colors_background": "#ff85d0",
+        "gradient_background": "",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "image_with_text_8A8AHr": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_rzHTxp": {
+          "type": "heading",
+          "settings": {
+            "heading": "The Wings every girl dreams about",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "text_XpkpgY": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Imagine effortlessly creating flawless, symmetrical winged eyeliner in seconds—no more <strong>shaky </strong>hands, <strong>uneven </strong>lines, or countless <strong>attempts</strong> to get both eyes to match. </p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_rzHTxp",
+        "text_XpkpgY"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/NEW_REAL_ONE.png",
+        "image_position": "center center",
+        "layout": "image_first",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "image_ratio": "650px",
+        "enlarge_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "image_behavior": "none",
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "adapt",
+        "enable_video_looping": false,
+        "video_url": "",
+        "use_custom_colors": false,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_7PWNWF": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_xTpncB": {
+          "type": "heading",
+          "settings": {
+            "heading": "Cat-Eye You've Always Wanted",
+            "heading_size": "h1",
+            "heading_tag": "h2"
+          }
+        },
+        "text_87GUbK": {
+          "type": "text",
+          "settings": {
+            "text": "<p>That salon-perfect winged look you see on Instagram? It's yours now, every single time. Because flawless eyeliner shouldn't be reserved for makeup artists—it should be as easy as a single stamp.</p>",
+            "text_size": "typeset2",
+            "secondary_color": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_xTpncB",
+        "text_87GUbK"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/E7E83139-1C20-4BAB-9DD0-95544C4C3041_1060x_4c5aad6e-4482-467c-a67c-34a1ad862a4c.png",
+        "image_position": "center center",
+        "layout": "image_first",
+        "text_box_position": "middle",
+        "text_alignment": "left",
+        "image_ratio": "650px",
+        "enlarge_content": false,
+        "full_width": false,
+        "show_divider": false,
+        "image_behavior": "none",
+        "mobile_layout": "image_first",
+        "mobile_text_alignment": "left",
+        "mobile_image_ratio": "adapt",
+        "enable_video_looping": false,
+        "video_url": "",
+        "use_custom_colors": true,
+        "colors_button_label": "#ffffff",
+        "colors_button_background": "#1a1b18",
+        "colors_text": "#212326",
+        "colors_background": "#ffffff",
+        "gradient_background": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "scrolling_promotion_cYajTQ": {
+      "type": "scrolling-promotion",
+      "blocks": {
+        "announcement_BxEMh7": {
+          "type": "announcement",
+          "settings": {
+            "icon": "none",
+            "icon_size": "medium",
+            "custom_icon": "",
+            "text": "30% OFF + FREE DELIVERY",
+            "text_size": 20,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "announcement_BxEMh7"
+      ],
+      "name": "t:sections.scrolling-promotion.presets.name",
+      "settings": {
+        "direction": "left",
+        "speed": 1.6,
+        "show_divider": false,
+        "use_custom_colors": true,
+        "colors_icon": "#ffffff",
+        "colors_text": "#ffffff",
+        "colors_background": "#ff85d0",
+        "gradient_background": "",
+        "padding_top": 12,
+        "padding_bottom": 12
+      }
+    },
+    "faq_9VqJDi": {
+      "type": "faq",
+      "blocks": {
+        "question_grPBg7": {
+          "type": "question",
+          "settings": {
+            "title": "Will it actually work for beginners?",
+            "text": "<p>Yes. The stamp is designed specifically for beginners. One press creates the wing shape, and the liner side connects it smoothly — no skills, no practice needed.</p>"
+          }
+        },
+        "question_nBkyJE": {
+          "type": "question",
+          "settings": {
+            "title": "What if my eyes are different shapes or sizes?",
+            "text": "<p>The stamp works on all eye shapes. Because you control the angle and pressure, you can slightly adjust the wing to suit your eye while still keeping both sides balanced.</p>"
+          }
+        },
+        "question_3ww6rd": {
+          "type": "question",
+          "settings": {
+            "title": "Is the liner waterproof or will it smudge?",
+            "text": "<p>The formula is waterproof, smudge-resistant, and long-lasting. It stays clean through heat, sweat, and long days without fading or transferring.</p>"
+          }
+        },
+        "question_DiMHr7": {
+          "type": "question",
+          "settings": {
+            "title": "How long does one eyeliner last?",
+            "text": "<p>With normal daily use, one stamp lasts for weeks. Because the application is precise, you don’t waste product like traditional liners.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_grPBg7",
+        "question_nBkyJE",
+        "question_3ww6rd",
+        "question_DiMHr7"
+      ],
+      "name": "t:sections.faq.presets.name",
+      "settings": {
+        "narrow": false,
+        "secondary_background": false,
+        "show_divider": false,
+        "heading": "FAQs",
+        "heading_size": "h1",
+        "heading_alignment": "left",
+        "heading_tag": "h2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "empty-space",
+    "main",
+    "product-recommendations",
+    "rich_text_ntJ98Q",
+    "scrolling_promotion_Cb8Bzg",
+    "image_with_text_8A8AHr",
+    "image_with_text_7PWNWF",
+    "scrolling_promotion_cYajTQ",
+    "faq_9VqJDi"
+  ]
+}
