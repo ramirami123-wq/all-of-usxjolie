@@ -121,6 +121,28 @@
             "custom_liquid": "",
             "keep_open": false
           }
+        },
+        "collapsible_tab_XBjXHt": {
+          "type": "collapsible_tab",
+          "settings": {
+            "icon": "none",
+            "heading": "How To Use",
+            "content": "<p>All our products are extremely potent. Other products are filled with water and chemical fillers. Therefore you only need a small amount on the tip of your finger.</p><p><br/>Ultra Cleanse & Revive Face Scrub 🌹<br/><strong>Use the Face Scrub 2-3 times per week. Keep the jar level and don’t add water into it. Add a pinch of powder in your dry palm, mix it with water and scrub your face for 1-2 minutes.</strong></p><p>Anti-Age & Insane Glow Day Balm <strong>☀️</strong><br/><strong>Apply a thin layer of the Anti-Age Balm to your face in the morning. It’s super potent: you only need a tiny amount.</strong></p><p>Hyper Potent Dark Circles & Bag Eye Balm 👁️<br/><strong>Apply a thin layer at night around the eyes and areas where you have wrinkles. It does also work as a day balm to use all over the face, if you feel like your whole face needs tightening.</strong></p><p>Magic Wrinkle Eraser Night Balm 🌙<br/><strong>Apply a thin layer of the Wrinkle Eraser Balm to your face before going to bed. It’s super potent: you only need a tiny amount.</strong></p>",
+            "page": "",
+            "custom_liquid": "",
+            "keep_open": false
+          }
+        },
+        "collapsible_tab_bmTK7t": {
+          "type": "collapsible_tab",
+          "settings": {
+            "icon": "none",
+            "heading": "What Types Of Skin?",
+            "content": "<p><strong>The products are made for extreme conditions. Making them suitable for everyone, harsh weather or not. The products work for almost all skin types; oily, dry, normal, combination, and sensitive. And all skin colors. It works for shaved men and men with beards or stubs.</strong></p>",
+            "page": "",
+            "custom_liquid": "",
+            "keep_open": false
+          }
         }
       },
       "block_order": [
@@ -136,7 +158,9 @@
         "custom_liquid_VxfRQW",
         "related_buttons",
         "sticky_cart",
-        "collapsible_tab_TJqQJP"
+        "collapsible_tab_TJqQJP",
+        "collapsible_tab_XBjXHt",
+        "collapsible_tab_bmTK7t"
       ],
       "custom_css": [
         ".product-form__submit {animation: shopifyshake 4s; animation-iteration-count: infinite;}"
@@ -190,7 +214,7 @@
         "heading_cmmPpw": {
           "type": "heading",
           "settings": {
-            "heading": "Winged Perfection",
+            "heading": "Life-changing results in days",
             "heading_size": "h1",
             "heading_tag": "h2"
           }
@@ -198,10 +222,10 @@
         "text_WhLffM": {
           "type": "text",
           "settings": {
-            "text": "<p>Create clean, perfectly balanced wings in seconds. No skills, no touch-ups — just a flawless, polished look that lasts all day</p>",
+            "text": "<p>Most women struggle for years trying product after product with no real change. Jolie was created to finally fix that.</p>",
             "text_size": "typeset2",
             "secondary_color": false,
-            "highlight_phrases": "clean\nNo skills",
+            "highlight_phrases": "Most\nJolie",
             "highlight_style": "circle"
           }
         }
