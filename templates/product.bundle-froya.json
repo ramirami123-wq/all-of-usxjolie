@@ -23,7 +23,7 @@
           "type": "text",
           "settings": {
             "icon": "none",
-            "text": "⭐⭐⭐⭐⭐ 284+ Happy Customers",
+            "text": "⭐⭐⭐⭐⭐ 284+ Rejuvenated Women",
             "text_style": "body"
           }
         },
@@ -310,7 +310,7 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
-        "image": "shopify://shop_images/NEW_REAL_ONE.png",
+        "image": "shopify://shop_images/Image_60cf14f1-4b4e-4f7a-9f74-0970e2cc0fb1.png",
         "image_position": "center center",
         "layout": "image_first",
         "text_box_position": "middle",
