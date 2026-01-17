@@ -290,7 +290,7 @@
         "heading_rzHTxp": {
           "type": "heading",
           "settings": {
-            "heading": "The Wings every girl dreams about",
+            "heading": "Your Skin, But Better",
             "heading_size": "h1",
             "heading_tag": "h2"
           }
@@ -298,7 +298,7 @@
         "text_XpkpgY": {
           "type": "text",
           "settings": {
-            "text": "<p>Imagine effortlessly creating flawless, symmetrical winged eyeliner in seconds—no more <strong>shaky </strong>hands, <strong>uneven </strong>lines, or countless <strong>attempts</strong> to get both eyes to match. </p>",
+            "text": "<p>Fine lines, dryness, and uneven tone don’t define you. Jolie works daily to refine skin texture, boost radiance, and restore softness.</p>",
             "text_size": "typeset2",
             "secondary_color": false
           }
@@ -341,7 +341,7 @@
         "heading_xTpncB": {
           "type": "heading",
           "settings": {
-            "heading": "Cat-Eye You've Always Wanted",
+            "heading": "Reset for Your Skin",
             "heading_size": "h1",
             "heading_tag": "h2"
           }
@@ -349,7 +349,7 @@
         "text_87GUbK": {
           "type": "text",
           "settings": {
-            "text": "<p>That salon-perfect winged look you see on Instagram? It's yours now, every single time. Because flawless eyeliner shouldn't be reserved for makeup artists—it should be as easy as a single stamp.</p>",
+            "text": "<p>Jolie improves your skin at its core. With consistent use, your complexion becomes clearer, more hydrated, and visibly refreshed — the kind of change others notice.</p>",
             "text_size": "typeset2",
             "secondary_color": false
           }
@@ -361,7 +361,7 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
-        "image": "shopify://shop_images/E7E83139-1C20-4BAB-9DD0-95544C4C3041_1060x_4c5aad6e-4482-467c-a67c-34a1ad862a4c.png",
+        "image": "shopify://shop_images/The_Complete_System_for_Mature_Women_s_Skin04_a640c6e5-0f95-44ba-9891-fa1dfbe27ee5.png",
         "image_position": "center center",
         "layout": "image_first",
         "text_box_position": "middle",
